@@ -1,0 +1,122 @@
+body{
+    padding: 0;
+    margin: 0;
+    
+}
+.acad-logo{
+    width : 100%;
+    height: 18rem;
+    object-fit: cover;
+}
+.over-image-links{
+    position: absolute;
+    top: 30px;
+    display: flex;
+    right: 40px;
+    /* z-index: 2; */
+
+}
+.over-image-links a{
+    color: white;
+    margin: 12px;
+    font-weight: 900;
+    font-size: larger;
+    text-decoration: none;
+}
+.over-image-links a:hover{
+    color: rgba(176, 29, 235, 0.973);
+}
+/* heading */
+nav{
+    background: linear-gradient(white 75%, rgb(238, 91, 206));
+}
+.acad-heading{
+    color: rgba(176, 29, 235, 0.973);
+    font-size: xx-large;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    font-family: 'Rowdies', cursive, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;;
+}
+.acad-subheading{
+    color: rgb(56, 56, 56);
+    display: flex;
+    justify-content: center;
+    font-family: 'Rowdies', cursive, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;;
+}
+
+/* main content */
+
+.main-content{
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    align-items: left;
+    
+    background-color: white;
+    min-height: 40vh;
+    margin: 10vw;
+    
+}
+.dropdown{
+    padding: 30px;
+    /* border-bottom: 2px solid green; */
+    /* border-right : 1px solid green; */
+    margin-bottom: 22px;
+    box-shadow: 0px 3px 3px 0px;
+    
+}
+.dropdown:hover{
+    background: linear-gradient(white 30%,rgb(238, 91, 206));
+}
+.dropdown-content{
+    display: none;
+    
+}
+.dropdown:hover .dropdown-content{
+    display:block;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+}
+.dropbtn{
+    font-size: x-large;
+    text-decoration: underline;
+    color: rgba(176, 29, 235, 0.973);
+    font-weight: bold;
+}
+/* footer{
+    text-align: center;
+    background-color: rgba(176, 29, 235, 0.973);
+    color: white;
+    padding: 5px;
+} */
+
+footer{
+    padding: 10px;
+    color: white;
+    background: black;
+    text-align: center;
+    width: 100%;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    background: black;
+    border-bottom: 2px solid rgba(176, 29, 235, 0.973);
+    border-top: 2px solid rgba(176, 29, 235, 0.973);
+}
+footer a{
+    margin: 10px 25px;
+    color: white;
+    text-decoration: none;
+}
+footer a:hover{
+    color: rgba(176, 29, 235, 0.973);
+}
+.copy-right{ 
+    color: rgba(176, 29, 235, 0.973);
+    font-size: x-large;
+    padding-top: 5px;
+}

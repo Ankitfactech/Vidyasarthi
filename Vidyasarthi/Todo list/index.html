@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rowdies:wght@300&display=swap" rel="stylesheet">
+
+    <!-- font-awesome -->
+<link
+rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+/>
+    <title>To Do List</title>
+
+</head>
+
+<body>
+     <!-- nav begins -->
+     <nav>
+        <div class="nav-center">
+            <img class="acad-logo" src="/Todo list/todo-logo.webp" alt="YoutubeWallpaper">
+
+            <div class="over-image-links">
+                <a class="top-right" href="/WebpgsAashna/home.html">Home</a>
+                <a class="top-right second" href="/WebpgsAashna/home.html">About</a>
+                <!-- <img class ="top-left" src="vid2.png" alt="website-logo"> -->
+            </div>
+
+        </div>
+        
+
+    </nav>
+    <!-- nav start
+    <nav>
+        <div class="nav-center">
+            <div class="nav-header">
+                <img src="./todo-logo.webp" alt="to-dos" class="todo-logo">
+                <button class="btn">
+                    <a href="index.html">Home</a>
+                </button>
+            </div>
+            <div class="nav-links">
+
+
+            </div>
+        </div>
+    </nav> -->
+    <!-- nav end -->
+
+
+    <!-- to do list -->
+    <div class="todo-header">
+        <h2>To-do list</h2>
+    </div>
+    <div class="container">
+
+        <div class="inputArea">
+            <input id="inputField" type="text" placeholder="Write here">
+            <button id="addToDo">
+                Add
+                <!-- <i class="fa-solid fa-feather-pointed"></i> -->
+                <!-- <i class="fa-solid fa-folder-plus"></i> -->
+                
+            </button>
+
+        </div>
+        <div class="imaginaryContainer">
+            <div class="to-dos" id="toDoContainer" >
+                <p id="intsruction-text">
+                    // single click on text to mark it as complete<br>
+                    //double click to remove item from your list<br>
+                </p>
+                <div class="leave-line">
+                    <button class="btn btn-bottom" id="clear-all-button">
+                        Clear All
+                    </button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>

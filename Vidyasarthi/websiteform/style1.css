@@ -1,0 +1,248 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background: url("\web2.jpg") no-repeat
+}
+
+header h1 {
+    text-align:center;
+    font-size: 40px;
+    color:blueviolet;
+    width:100%;
+    height: 5px;
+    
+}
+
+header {
+    padding: 40px;
+    background-color:gold;
+
+}
+
+nav {
+    background-color: #333;
+    overflow: hidden;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 20px;
+    text-align: center;
+    float: left;
+    color: white;
+}
+
+    .container {
+        font-size: 15px;
+        
+        
+        padding: 0px;
+        margin: 0px;
+        text-align: center;
+    }
+
+    #time {
+        font-weight: bold;
+    }
+
+.container2 {
+    border: 2px solid white;
+    margin: 106px 80px;
+    padding: 75px;
+    width: 33%;
+    border-radius: 28px;
+}
+
+.form-group input {
+    font-family: 'Baloo Bhai', cursive;
+    text-align: center;
+    display: block;
+    width: 508px;
+    padding: 1px;
+    border: 2px solid black;
+    margin: 11px auto;
+    font-size: 25px;
+    border-radius: 8px;
+    background-color: rgb(123, 255, 0);
+}
+main {
+    background-color: white;
+    text-align: center;
+}
+body {
+    margin:0px;
+    padding: 0px;
+    background-color:rgb(157, 255, 0);
+}
+/* Services Section */
+#services{
+    margin: 34px;
+    display: flex;
+}
+#services .box{ 
+    border: 2px solid brown;
+    padding: 34px;
+    margin: 2px 55px;
+    border-radius: 28px;
+    background: #f2f2f2;
+    margin-bottom: 20px;
+}
+
+#services .box img{ 
+   height: 160px;
+   margin: auto;
+   display: block;
+}
+
+#services .box p{
+    font-family: 'Bree Serif', serif;
+
+} 
+body  {
+    margin: 0px;
+    padding: 0px;
+    background-color:gray
+    
+}
+h2 {
+    text-align:center;
+    font-size: 15px;
+    color:red;
+    width:100%;
+    height: 3px;
+    
+}
+h3  {
+    color: blueviolet;
+}
+
+section:nth-child(even) {
+    background-color: rgb(241, 241, 241);
+}
+
+section {
+    min-height: 100vh;
+}
+
+video {
+    padding: 10px;
+}
+
+iframe {
+    height: 75vh;
+}
+
+img {
+    padding: 10px;
+    width: 200px;
+    height: 250px;
+    
+}
+
+ h4 {
+    margin: 40px;
+    background-color: rgb(0, 255, 42);
+}
+.services{
+    margin:20px  ;
+    display: flex;
+    }
+    section{
+      text-align: center;  
+    }
+   
+    .services .box{
+        
+        height: 256px;
+        width: 270px;
+    border: 2px solid rgb(0, 0, 0) ;
+    padding: 67px 9px ;
+    margin: 3px 25px ;
+    margin-left: 60px;
+    margin-right:12px ;
+    padding-top: 12px;
+    /* border-radius: 20px ; */
+    background-color: rgb(255, 255, 255);
+    }
+    .services .box1{
+        
+        height: 256px;
+        width: 270px;
+    border: 2px solid rgb(0, 0, 0) ;
+    padding: 92px 9px ;
+    margin: 3px 25px ;
+    margin-left: 60px;
+    margin-right:12px ;
+    padding-top: 12px;
+    /* border-radius: 20px ; */
+    background-color: rgb(255, 255, 255);
+    }
+    .services .box img{
+        height: 160px ;
+        margin: -41px auto;
+        display: block;
+        padding: 2px 2px ;
+    }
+    .services .box1 img{
+        height: 160px ;
+        margin: -41px auto;
+        display: block;
+        padding: 2px 2px ;
+    }
+    .container{
+        display: flex;
+        flex-direction: row;
+        
+    }
+    .container2{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .head{
+        margin-top: 50px;
+    }
+    .h-primary{
+        font-size: 3.8rem;
+        padding: 12px ;
+    }
+    .btn{
+        padding: 6px 20px;
+        background-color: rgb(107, 53, 255);
+        margin: 27px;
+        color: white;
+        border: 2px solid #fffcfc;
+        border-radius: 10px;
+        font-size: 1.2rem;
+        cursor: pointer;
+    }
+    .btn:hover{
+      color: rgb(10, 10, 10);
+      background-color: rgb(225, 225, 240);
+      border-color: black;
+      border-radius: 25px;
+    }
+    .center{
+        text-align: center;
+    }
+    .center1{
+        margin:  12px auto;
+        width: 142px ;
+        display: block;
+    }
+
+footer {
+    background-color: rgb(51, 51, 51);
+    overflow: hidden;
+}
+
+footer a {
+    text-decoration: none;
+    padding: 20px;
+    text-align: center;
+    float: left;
+    color: white;

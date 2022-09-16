@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style1.css"
+</head>
+<body>
+    <header>
+        <h1> VIDYASARTHI</h1>
+        <h2> Explore and learn- anytime you want</h2>
+        
+        <div class="container">
+            Current time is <span id="time"></span>
+        </div>
+        <script>
+            console.log("This is date and time tutorial");
+            let now = new Date();
+            console.log(now);
+    
+            let dt = new Date(1000);
+            console.log(dt);
+    
+            // let newDate = new Date("2029-09-30");
+            // console.log(newDate)
+    
+            // let newDate = new Date(year, month, date, hours, minutes, seconds, milliseconds);
+            let newDate = new Date(3020, 4, 6, 9, 3, 2, 34);
+            console.log(newDate);
+    
+            let yr = newDate.getFullYear();
+            console.log("The year is ", yr);
+    
+            let dat = newDate.getDate();
+            console.log("The date is ", dat);
+    
+            let month = newDate.getMonth();
+            console.log("The month is ", month);
+    
+            let hours = newDate.getHours();
+            console.log("The hours is ", hours);
+    
+            newDate.setDate(8);
+            newDate.setMinutes(29);
+            console.log(newDate)
+            setInterval(updateTime, 1000);
+    
+            function updateTime() {
+                time.innerHTML = new Date();
+            }
+    
+        </script>
+    </header>
+    <nav>
+        <a href ="#">Home</a>
+        <a href ="#">About</a>
+        
+        <a href ="#">Vedio</a>
+        <a href "#">Collage book</a>
+        <a href ="#">Additional Notes</a>
+        <a href ="#">FAQ</a>
+        <a href ="https://www.nitj.ac.in">NIT jalandhar</a>
+        <a href ="http://127.0.0.1:5501/index.html">Detail-Login/signup</a>
+    </nav>
+    <div class="container2">
+        <h1>Enter your detail</h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Collage Name">
+            </div>
+           
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Branch">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Email Id">
+            </div>
+            <div class="form-group">
+                <input type="datetime-local" name=""placeholder="Select of date registation">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Phone Number">
+            </div>
+            <button class="btn">Submit</button>
+            <button class="btn">Reset</button>
+        </form>
+    </div><section id="services-container">
+        <h1 class="h-primary center">Our Services</h1>
+        <div id="services">
+            <div class="box">
+                <img src="/coding.jpg" alt="">
+                <h2 class="h-secondary center">Coding/programming</h2>
+                <p class="center">Vidyasarthi is one stop solution to all your problem regarding which 
+                    course is best for learning coading and programming language.Here we will provide you
+                best course in the market for free.We have best course for learning webdevelopment
+            ,c++, java .  Happy coding </p>
+            <button class="btn center1"> <a href="program.html"> Click here</a></button>
+            </div>
+            <div class="box">
+                <img src="/nitj.jpg" alt="">
+                <h2 class="h-secondary center">Collage acadmics</h2>
+                <p class="center"> Vidyasarthi is one stop solution for all your acadmics needs. We are providing 
+                    you all the study material , notes and supporting vedio links related to your acadmic requirement
+                    . Materail we are providing is enough to excel in acadmics.
+                </p>
+                <button class="btn center1"> <a href="http://127.0.0.1:5502/index.html"> Click here</a></button>
+            </div>
+            <div class="box">
+                <img src="/mlink.png" alt="">
+                <h2 class="h-secondary center">Class links</h2>
+                <p class="center">Due to pandemic we are attending online classes but we have to attend so many classes 
+                    perday.One of the problem in online classes is links of classes , we generally misses 
+                    some links but do not worry we are providing you your all class link at one olace. Thanks.
+                </p>
+                <button class="btn center1"> <a href="http://127.0.0.1:5502/index.html"> Click here</a></button>
+            </div>
+        </div>
+         
+    <
+
+
+
+
+<section>
+    <h1>
+        Our Developer.
+    </h1>
+    <img src="ankit.jpeg" alt="This is Ankit kumar" < alt="" width="24%" height="80%"></alt>>
+    <img src="      aashna1.jpeg" alt="This is Ankit kumar" < alt="" width="24%" height="15%"></alt>>
+    <img src="aagam.jpeg" alt="This is Ankit kumar" < alt="" width="24%" height="80%"></alt>>
+    <h3>Ankit kumar ( Developer)  Aashna Mahajan (Co-developer) Sukarayam Janjua (Co-developer)</h3>
+    
+</section>
+
+
+
+
+
+    <footer>
+        <a href="#"> Contact us</a>
+        <a href="#">Privacy policy</a>
+        <a href="#">FAQ</a>
+        <a href="#">Copyright@Vidyasarthi</a>
+    </footer>
+</main>
+
+
+</body>
+</html>

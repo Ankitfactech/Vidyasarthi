@@ -1,0 +1,114 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.others-img{
+    width: 100%;
+    /* height: auto; */
+    height: auto;
+    
+}
+.over-image-links{
+    position: absolute;
+    top: 30px;
+    display: flex;
+    right: 40px;
+    /* z-index: 2; */
+    /* background-color: rgba(204, 201, 197, 0.842); */
+
+}
+.over-image-links a{
+    color: rgb(255, 174, 0);
+    margin: 12px;
+    font-weight: 900;
+    font-size: larger;
+    text-decoration: none;
+}
+.over-image-links a:hover{
+    color: white;
+}
+/* heading */
+nav{
+    background: linear-gradient(white 75%, rgb(236, 187, 53));
+}
+.others-heading{
+    color: rgba(238, 146, 25, 0.973);
+    font-size: xx-large;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    font-family: 'Rowdies', cursive, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;;
+}
+.others-subheading{
+    color: rgb(56, 56, 56);
+    display: flex;
+    justify-content: center;
+    font-family: 'Rowdies', cursive, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;;
+}
+.main-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+     /* align-items: center; */
+     background: linear-gradient(white,rgb(148, 145, 145));
+    
+}
+.cat{
+    /* background-color: aqua; */
+    margin: 10px;
+    padding: 10px;
+    font-size: larger;
+    border-radius: 15px;
+    background: black;
+    color: white;
+}
+/* .cat:hover{
+    background: linear-gradient(rgb(236, 187, 53),white);
+} */
+.cat a{
+    color:rgba(176, 29, 235, 0.973) ;
+    text-decoration: none;
+}
+.cat1{
+    background: linear-gradient(rgb(236, 187, 53),white);
+    color: black;
+    font-size: x-large;
+    /* color: rgb(234, 0, 255); */
+}
+.cat1 a{
+    color: rgba(176, 29, 235, 0.973) ;
+    font-weight: 900;
+}
+span{
+    color: rgba(176, 29, 235, 0.973);
+}
+
+
+
+footer{
+    padding: 10px;
+    color: white;
+    background: black;
+    text-align: center;
+    width: 100%;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    background: black;
+    border-bottom: 2px solid rgba(176, 29, 235, 0.973);
+    border-top: 2px solid rgba(176, 29, 235, 0.973);
+}
+footer a{
+    margin: 10px 25px;
+    color: white;
+    text-decoration: none;
+}
+footer a:hover{
+    color: rgba(176, 29, 235, 0.973);
+}
+.copy-right{ 
+    color: rgba(176, 29, 235, 0.973);
+    font-size: x-large;
+    padding-top: 5px;
+}

@@ -1,0 +1,131 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 40px;
+    color: white;
+}
+
+header {
+    padding: 40px;
+    background-color: rgb(17, 124, 143);
+}
+
+nav {
+    background-color:blueviolet;
+    overflow: hidden;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 20px;
+    text-align: center;
+    float: left;
+    color: white;
+}
+
+main {
+    background-color: white;
+    text-align: center;
+}
+
+h2 {
+    padding: 10px;
+}
+
+section:nth-child(even) {
+    background-color: rgb(241, 241, 241);
+}
+
+section {
+    min-height: 100vh;
+}
+
+video {
+    padding: 10px;
+}
+
+iframe {
+    height: 75vh;
+}
+
+img {
+    padding: 5px;
+    
+}
+
+section h5 {
+    margin: 40px;
+}
+
+footer {
+    background-color: black;
+    overflow: hidden;
+    color: white;
+    display: flex;
+    justify-content: center;
+    border: 2px solid #00f7ff;
+}
+footer a{
+    margin: 10px 25px;
+    color: white;
+    text-decoration: none;
+}
+footer a:hover{
+    color: #00f7ff;
+}
+
+/* developer */
+.developer-heading{
+    text-align: center;
+    font-size: larger;
+    color: #00f7ff;
+    background: black;
+    border-bottom: 2px solid #00f7ff;
+}
+.developer-content{
+ text-align: center;
+ font-size: large;
+ color: orange;
+ background: black;
+ font-weight: 900;
+ font-size: larger;
+ border-bottom: 2px solid #00f7ff;
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
+ padding-bottom: 10px;
+}
+.dev{
+  width: 200px;
+  height: 220px;
+  object-fit: cover;
+  margin: 10px;
+  padding-bottom: 20px;
+  /* background-color: #00f7ff; */
+  /* padding-bottom: 30px; */
+}
+.dev img{
+    height: 100%;
+    width: 100%;
+}
+.copy-right{ 
+    color: #00f7ff;
+    font-size: x-large;
+    padding-top: 5px;
+}
+
+/* footer a {
+    text-decoration: none;
+    padding: 20px;
+    text-align: center;
+    float: left;
+    color: white;
+} */
